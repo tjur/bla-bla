@@ -32,3 +32,4 @@ class TestBlaBla < Test::Unit::TestCase
     assert_equal(content.split(".").keep_if{ |sent| sent[0] == sent[0].capitalize}.size == content.split(".").size, true)
   end
 end
+
