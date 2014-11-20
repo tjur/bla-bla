@@ -20,7 +20,7 @@ class BlaBla
 
   def author
     WORD_LIST.sample.capitalize + " " + WORD_LIST.sample.capitalize
-  end
+  end 
 
   def title
     s = ""
